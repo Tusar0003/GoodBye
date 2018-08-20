@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5c6bc0"
+    tools:context="app.com.example.android.goodbye.MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/father"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/sorry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorry Abbu...I couldn't do anything. Please forgive me."
+        android:textSize="30sp"
+        android:textColor="#3e2723"/>
+
+    <TextView
+        android:id="@+id/trust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="But trust me, i love you... i love you a lot and we will meet again soon..."
+        android:textSize="25sp"
+        android:textColor="#3e2723"
+        android:layout_above="@+id/bye"/>
+
+    <TextView
+        android:id="@+id/bye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good Bye, Abbu..."
+        android:textSize="30sp"
+        android:textColor="#3e2723"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
